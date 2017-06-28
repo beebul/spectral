@@ -110,8 +110,9 @@ $baseurl: '{{ site.baseurl }}/images';
 	}
 
 	h2 {
-		font-size: 1.35em;
+		font-size: 2em;
 		line-height: 1.75em;
+		text-shadow: 1px 0px 0.1em #666;
 
 		@include breakpoint(small) {
 			font-size: 1.1em;
