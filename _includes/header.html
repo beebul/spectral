@@ -8,15 +8,20 @@
         <div id="menu">
           <ul>
             <li><a href="index.html">Home</a></li>
+            <li><a href="#one" class="scrolly">Section 1</a></li>
+            <li><a href="#two" class="scrolly">Section 2</a></li>
+            <li><a href="#three" class="scrolly">Section 3</a></li>
+            <li><a href="#four" class="scrolly">Contact Me</a></li>
             {% for my_page in site.pages %}
             {% if my_page.title %}
             <li><a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a></li>
             {% endif %}
             {% endfor %}
-            <li><a href="#one">Section 1</a></li>
+
           </ul>
         </div>
       </li>
     </ul>
   </nav>
 </header>
+
