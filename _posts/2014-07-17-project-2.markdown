@@ -1,0 +1,15 @@
+---
+title: Adelaide Cup
+subtitle: Display
+layout: default
+modal-id: 2
+date: 2014-07-17
+img: adelaide-cup.jpg
+thumbnail: thumbs/adelaide-cup-thumbnail.jpg
+alt: image-alt
+project-date: April 2014
+client: David Jones
+category: Public Holiday
+description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. 
+
+---

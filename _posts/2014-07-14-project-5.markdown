@@ -1,0 +1,14 @@
+---
+title: Brand Wall
+subtitle: Display
+layout: default
+modal-id: 5
+date: 2014-07-14
+img: brand-wall.jpg
+thumbnail: thumbs/brand-wall-thumbnail.jpg
+alt: image-alt
+project-date: April 2014
+client: David Jones
+category: Visual Merchandising
+description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis.
+---

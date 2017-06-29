@@ -1,0 +1,14 @@
+---
+title: Dining and China
+subtitle: Display
+layout: default
+modal-id: 10
+date: 2014-07-14
+img: dining-and-china.jpg
+thumbnail: thumbs/dining-and-china-thumbnail.jpg
+alt: image-alt
+project-date: April 2014
+client: David Jones
+category: Dining
+description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis.
+---

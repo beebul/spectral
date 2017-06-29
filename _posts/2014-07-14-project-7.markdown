@@ -1,0 +1,14 @@
+---
+title: Christmas Dining
+subtitle: Display
+layout: default
+modal-id: 7
+date: 2014-07-14
+img: christmas-dining.jpg
+thumbnail: thumbs/christmas-dining-thumbnail.jpg
+alt: image-alt
+project-date: April 2014
+client: David Jones
+category: Public Holiday
+description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis.
+---

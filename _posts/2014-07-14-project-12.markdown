@@ -1,0 +1,14 @@
+---
+title: Fashion and Accessories
+subtitle: Display
+layout: default
+modal-id: 12
+date: 2014-07-14
+img: fashion-and-accessories.jpg
+thumbnail: thumbs/fashion-and-accessories-thumbnail.jpg
+alt: image-alt
+project-date: April 2014
+client: David Jones
+category: Fashion
+description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis.
+---

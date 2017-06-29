@@ -1,0 +1,15 @@
+---
+title: Bedding
+subtitle: Pause-Point
+layout: default
+modal-id: 4
+date: 2014-07-15
+img: bedding-pause-point.jpg
+thumbnail: thumbs/bedding-pause-point-thumbnail.jpg
+alt: bedding-pause-point
+project-date: April 2014
+client: David Jones
+category: Bedding
+description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. 
+
+---

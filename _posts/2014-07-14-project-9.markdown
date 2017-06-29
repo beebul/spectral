@@ -1,0 +1,14 @@
+---
+title: Christmas Shop
+subtitle: Display
+layout: default
+modal-id: 9
+date: 2014-07-14
+img: christmas-shop.jpg
+thumbnail: thumbs/christmas-shop-thumbnail.jpg
+alt: image-alt
+project-date: April 2014
+client: David Jones
+category: Public Holiday
+description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis.
+---

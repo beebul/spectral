@@ -1,0 +1,14 @@
+---
+title: Children's Mannequins
+subtitle: Display
+layout: default
+modal-id: 6
+date: 2014-07-14
+img: childrens-mannequins.jpg
+thumbnail: thumbs/childrens-mannequins-thumbnail.jpg
+alt: image-alt
+project-date: April 2014
+client: David Jones
+category: Visual Merchandising
+description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis.
+---

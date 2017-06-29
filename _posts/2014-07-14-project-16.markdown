@@ -1,0 +1,14 @@
+---
+title: Home and Accessories
+subtitle: Display
+layout: default
+modal-id: 16
+date: 2014-07-14
+img: home-and-accessories.jpg
+thumbnail: thumbs/home-and-accessories-thumbnail.jpg
+alt: image-alt
+project-date: April 2014
+client: David Jones
+category: Home
+description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis.
+---

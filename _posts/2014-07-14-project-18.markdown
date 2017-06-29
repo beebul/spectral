@@ -1,0 +1,14 @@
+---
+title: Homewares
+subtitle: Display
+layout: default
+modal-id: 18
+date: 2014-07-14
+img: homewares-1.jpg
+thumbnail: thumbs/homewares-1-thumbnail.jpg
+alt: image-alt
+project-date: April 2014
+client: David Jones
+category: Home
+description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis.
+---

@@ -1,0 +1,14 @@
+---
+title: Home Entrance
+subtitle: Display
+layout: default
+modal-id: 17
+date: 2014-07-14
+img: home-entrance.jpg
+thumbnail: thumbs/home-entrance-thumbnail.jpg
+alt: image-alt
+project-date: April 2014
+client: David Jones
+category: Home
+description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis.
+---

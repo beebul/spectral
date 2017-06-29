@@ -1,0 +1,14 @@
+---
+title: Christmas party window
+subtitle: Display
+layout: default
+modal-id: 8
+date: 2014-07-14
+img: christmas-party-window.jpg
+thumbnail: thumbs/christmas-party-window-thumbnail.jpg
+alt: image-alt
+project-date: April 2014
+client: David Jones
+category: Public Holiday
+description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis.
+---

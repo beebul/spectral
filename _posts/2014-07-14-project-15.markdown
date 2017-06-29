@@ -1,0 +1,14 @@
+---
+title: High Tea Dining
+subtitle: Display
+layout: default
+modal-id: 15
+date: 2014-07-14
+img: high-tea-dining.jpg
+thumbnail: thumbs/high-tea-dining-thumbnail.jpg
+alt: image-alt
+project-date: April 2014
+client: David Jones
+category: Dining
+description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis.
+---

@@ -1,0 +1,14 @@
+---
+title: Dining
+subtitle: Display
+layout: default
+modal-id: 11
+date: 2014-07-14
+img: dining.jpg
+thumbnail: thumbs/dining-thumbnail.jpg
+alt: image-alt
+project-date: April 2014
+client: David Jones
+category: Dining
+description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis.
+---

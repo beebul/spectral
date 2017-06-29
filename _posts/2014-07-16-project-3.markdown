@@ -1,0 +1,15 @@
+---
+title: Adelaide Cup
+subtitle: Museum Case
+layout: default
+modal-id: 3
+date: 2014-07-16
+img: adelaide-cup-museum-case.jpg
+thumbnail: thumbs/adelaide-cup-museum-case-thumbnail.jpg
+alt: adelaide-cup-museum-case
+project-date: April 2014
+client: David Jones
+category: Public Holiday
+description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. 
+
+---
