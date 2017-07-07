@@ -15,9 +15,9 @@
       </div>
     </div>
 
-    <div class="row grid">
+    <div class="row grid uniform">
       {% for post in site.posts %}
-      <div class="col-md-4 col-sm-6 portfolio-item {{ post.category | slugify }}">
+      <div class="portfolio-item {{ post.category | slugify }}">
         <a href="#portfolioModal{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
           <div class="portfolio-hover">
             <div class="portfolio-hover-content">
@@ -28,7 +28,7 @@
         </a>
         <div class="portfolio-caption">
           <h4>{{ post.title }}</h4>
-          <p class="text-muted">{{ post.subtitle }}</p>
+          <p class="">{{ post.subtitle }}</p>
         </div>
       </div>
       {% endfor %}
@@ -36,46 +36,7 @@
   </div>
 </section>
 
-<script src="//code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
-<script src="https://unpkg.com/isotope-layout@3.0/dist/isotope.pkgd.js"></script>
-<script>
-  // init Isotope
-  var $grid = $('.grid').isotope({
-    // options
-  });
-  // filter items on button click
-  $('.filter-button-group').on('click', 'a', function() {
-    var filterValue = $(this).attr('data-filter');
-    $grid.isotope({
-      filter: filterValue
-    });
-  });
-  $('.button-group a.button').on('click', function() {
-    $('.button-group a.button').removeClass('active');
-    $(this).addClass('active');
-  });
-</script>
 
 <style type="text/css">
-  a.button.active {
-    background: #fec503;
-    color: #333;
-    font-weight: bolder;
-  }
 
-  a.button {
-    border: 1px solid #333;
-    color: #333;
-    margin: 1rem;
-  }
-
-  /*a.button:hover {
-    color: #333;
-    font-weight: bolder;
-  }*/
-
-  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-    /* Styles */
-    a.button { font-size: .9rem; }
-  }
 </style>
