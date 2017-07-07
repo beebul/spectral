@@ -15,28 +15,28 @@
       </div>
     </div>
 
-    <div class="row grid uniform">
-      {% for post in site.posts %}
-      <div class="portfolio-item {{ post.category | slugify }}">
-        <a href="#portfolioModal{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
-          <div class="portfolio-hover">
-            <div class="portfolio-hover-content">
-              <i class="fa fa-plus fa-3x"></i>
+    <div class="box alt grid">
+      <div class="row uniform">
+        {% for post in site.posts %}
+        <div class="4u">
+          <div class="portfolio-item {{ post.category | slugify }}">
+            <a href="#portfolioModal{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fa fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img src="img/portfolio/{{ post.thumbnail }}" class="img-responsive img-centered image fit " alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h4>{{ post.title }}</h4>
+              <p class="">{{ post.subtitle }}</p>
             </div>
           </div>
-          <img src="img/portfolio/{{ post.thumbnail }}" class="img-responsive img-centered" alt="">
-        </a>
-        <div class="portfolio-caption">
-          <h4>{{ post.title }}</h4>
-          <p class="">{{ post.subtitle }}</p>
         </div>
+        {% endfor %}
       </div>
-      {% endfor %}
     </div>
+
   </div>
 </section>
-
-
-<style type="text/css">
-
-</style>
