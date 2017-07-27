@@ -1,20 +1,20 @@
+--- 
+layout: landing 
 ---
-layout: landing
----
-				<!-- Banner -->
-					<section id="banner">
-						<div class="inner">
-							<h2>{{ site.title }}</h2>
-							<p>{{ site.description | markdownify }}</p>
-							<!-- <ul class="actions">
+<!-- Banner -->
+<section id="banner">
+	<div class="inner">
+		<h2>{{ site.title }}</h2>
+		<p>{{ site.description | markdownify }}</p>
+		<!-- <ul class="actions">
 								<li><a href="#" class="button special">Activate</a></li>
 							</ul> -->
-						</div>
-						<a href="#services" class="more scrolly">Learn More</a>
-					</section>
+	</div>
+	<a href="#services" class="more scrolly">Learn More</a>
+</section>
 
-				<!-- One -->
-					<!-- <section id="one" class="wrapper style1 special">
+<!-- One -->
+<!-- <section id="one" class="wrapper style1 special">
 						<div class="inner">
 							<header class="major">
 								<h2>Visual Merchandiser</h2><br>
@@ -34,61 +34,60 @@ layout: landing
 					</section> -->
 
 
-				<!-- Two -->
-					<section id="services" class="wrapper style3 special">
-						<div class="inner">
-							<header class="major">
-								<h2>Services</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet eleifend<br />
-								fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.</p>
-							</header>
-							<ul class="features">
-								<li class="icon fa-shopping-cart">
-									<h3>Visual Merchandising</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-								<li class="icon fa-shopping-bag">
-									<h3>Styling</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-								<li class="icon fa-diamond">
-									<h3>Luxury Goods</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-								<li class="icon fa-windows">
-									<h3>Window Displays</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-							</ul>
-						</div>
-					</section>
-					
-					<!-- Three -->
-					<section id="portfolio" class="wrapper style1 special">
-							<div class="inner">
-								
-								<section class="major">
-									{% include portfolio_grid.html %}		
-								</section>
-								
-							</div>
-						</section>
-					
-					<!-- Contact-->
-					<section id="four" class="wrapper style2 special">
-						<div class="inner">
-					
-							<h3>Get in touch</h3>
-	
-							<form method="post" action="#">
-						<div class="row uniform">
-							<div class="6u 12u$(xsmall)">
-								<input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
-							</div>
-							<div class="6u$ 12u$(xsmall)">
-								<input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
-							</div>
-							<!-- <div class="12u$">
+<!-- Two -->
+<section id="services" class="wrapper style3 special">
+	<div class="inner">
+		<header class="major">
+			<h2>Services</h2>
+			<p>Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet eleifend<br /> fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.</p>
+		</header>
+		<ul class="features">
+			<li class="icon fa-shopping-cart">
+				<h3>Visual Merchandising</h3>
+				<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
+			</li>
+			<li class="icon fa-shopping-bag">
+				<h3>Styling</h3>
+				<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
+			</li>
+			<li class="icon fa-diamond">
+				<h3>Luxury Goods</h3>
+				<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
+			</li>
+			<li class="icon fa-windows">
+				<h3>Window Displays</h3>
+				<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
+			</li>
+		</ul>
+	</div>
+</section>
+
+<!-- Three -->
+<section id="portfolio" class="wrapper style1 special">
+	<div class="inner">
+
+		<section class="major">
+			{% include portfolio_grid.html %}
+		</section>
+
+	</div>
+</section>
+
+<!-- Contact-->
+<section id="four" class="wrapper style2 special">
+	<div class="inner">
+
+		<h3>Get in touch</h3>
+
+		<form method="post" action="#">
+			<div class="row uniform">
+				<div class="6u 12u$(xsmall)">
+					<input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
+				</div>
+				<div class="6u$ 12u$(xsmall)">
+					<input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
+				</div>
+				<!-- <div class="12u$">
 								<div class="select-wrapper">
 									<select name="demo-category" id="demo-category">
 										<option value="">- Category -</option>
@@ -99,31 +98,34 @@ layout: landing
 									</select>
 								</div>
 							</div> -->
-							<div class="12u$">
-								<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
-							</div>
-							<div class="12u$">
-								<ul class="actions">
-									<li><input type="submit" value="Send Message" class="special" /></li>
-									<li><input type="reset" value="Reset" /></li>
-								</ul>
-							</div>
-						</div>
-					</form>
-					
-						</div>
-					</section>
-					
-				<!-- CTA -->
-					<section id="cta" class="wrapper style4">
-						<div class="inner">
-							<header>
-								<h2>Arcue ut vel commodo</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet eleifend fringilla.</p>
-							</header>
-							<ul class="actions vertical">
+				<div class="12u$">
+					<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
+				</div>
+				<div class="12u$">
+					<ul class="actions">
+						<li><input type="submit" value="Send Message" class="special" /></li>
+						<li><input type="reset" value="Reset" /></li>
+					</ul>
+				</div>
+			</div>
+		</form>
+
+	</div>
+</section>
+
+<!-- CTA -->
+<section id="cta" class="wrapper style4">
+	<div class="inner">
+		<header>
+			<h2>Inspiration</h2>
+			<blockquote>
+				Paul Rand ~
+								"The public is more familiar with bad design than good design."
+			</blockquote>
+		</header>
+		<!-- <ul class="actions vertical">
 								<li><a href="#" class="button fit special">Activate</a></li>
 								<li><a href="#" class="button fit">Learn More</a></li>
-							</ul>
-						</div>
-					</section>
+							</ul> -->
+	</div>
+</section>
