@@ -5,10 +5,8 @@
     margin: 0 0 15px;
 }*/
 
-
-
 #portfolio .image.fit { 
-  margin: 0 0 0 0;
+  margin: 0 0 .2rem 0;
   border: 2px white solid;
 }
 
@@ -24,9 +22,9 @@ a.button.active {
 }
 
 a.button {
-  border: 1px solid #333;
-  color: #333;
-  margin: 1rem;
+  /*border: 1px solid #333;
+  color: #333;*/
+  margin: .2rem;
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
@@ -42,7 +40,7 @@ a.button {
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
-    position: absolute;
+    /*position: absolute;*/
     width: 100%;
     height: 100%;
     opacity: 0;
@@ -57,7 +55,7 @@ a.button {
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
-    position: absolute;
+    /*position: absolute;*/
     top: 50%;
     width: 100%;
     height: 20px;

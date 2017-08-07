@@ -1,39 +1,38 @@
 <!-- Portfolio Grid Section -->
 <section id="portfolio" class="bg-light-gray">
   <div class="container">
-    <div class="row">
-      <div class="12u text-center">
-        <h2 class="section-heading">Portfolio</h2>
-        <!-- <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3> -->
+    <div class="u-max-full-width text-center">
+      <h2 class="section-heading">Portfolio</h2>
+      <!-- <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3> -->
 
-        <div class="button-group filter-button-group">
-          {% for category in site.categories %}
-          <a class="btn button" data-filter=".{{ category | first | slugify }}">{{ category | first }}</a> {% endfor %}
-          <a class="btn button active" data-filter="*">All</a>
-        </div><br><br>
-
+      <div class="button-group filter-button-group">
+        {% for category in site.categories %}
+        <a class="btn button" data-filter=".{{ category | first | slugify }}">{{ category | first }}</a> {% endfor %}
+        <a class="btn button active" data-filter="*">All</a>
       </div>
+
     </div>
+
 
     <div class="box alt">
       <div class="row">
         {% for post in site.posts %}
-        <div class="grid 3u">
-            <div class="portfolio-item {{ post.category | slugify }}">
-              <a href="#portfolioModal{{ post.modal-id }}" class="portfolio-link" >
-                <div class="portfolio-hover">
-                  <div class="portfolio-hover-content">
-                    <i class="fa fa-plus fa-3x"></i>
-                  </div>
+        <div class="grid 4u">
+          <div class="portfolio-item {{ post.category | slugify }}">
+            <a href="#portfolioModal{{ post.modal-id }}" class="portfolio-link">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fa fa-plus fa-3x"></i>
                 </div>
-                <img src="img/portfolio/{{ post.thumbnail }}" class="image fit" alt="">
-              </a>
-              <div class="portfolio-caption">
-                <h4>{{ post.title }}</h4>
-                <!-- <p>{{ post.subtitle }}</p> -->
               </div>
+              <img src="img/portfolio/{{ post.thumbnail }}" class="image fit" alt="">
+            </a>
+            <div class="caption">
+              <h5>{{ post.title }}</h5>
+              <!-- <p>{{ post.subtitle }}</p> -->
             </div>
           </div>
+        </div>
         {% endfor %}
       </div>
     </div>
@@ -41,8 +40,6 @@
   </div>
 </section>
 
-<!-- <script src="//code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script> -->
-<script src="https://unpkg.com/isotope-layout@3.0/dist/isotope.pkgd.js"></script>
 <script>
   // init Isotope
   var $grid = $('.grid').isotope({
@@ -55,12 +52,13 @@
       filter: filterValue
     });
   });
+
   $('.button-group a.button').on('click', function() {
     $('.button-group a.button').removeClass('active');
     $(this).addClass('active');
+    console.log(filterValue);
   });
 
-  console.log('portfolio');
 
   $('div.modal').on('show.bs.modal', function() {
     var modal = this;
@@ -73,31 +71,4 @@
       }
     }
   });
-    
-  
 </script>
-<style type="text/css">
-  a.button.active {
-    background: #fec503;
-    color: #333;
-    font-weight: bolder;
-  }
-
-  a.button {
-    border: 1px solid #333;
-    color: #333;
-    margin: 1rem;
-  }
-
-  a.button:hover {
-    color: #333;
-    font-weight: bolder;
-  }
-
-  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-    /* Styles */
-    a.button {
-      font-size: .9rem;
-    }
-  }
-</style>
