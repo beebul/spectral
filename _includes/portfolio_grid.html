@@ -1,7 +1,7 @@
 <!-- Portfolio Grid Section -->
 <section id="portfolio" class="bg-light-gray">
   <div class="container">
-    <div class="row uniform">
+    <div class="row">
       <div class="12u text-center">
         <h2 class="section-heading">Portfolio</h2>
         <!-- <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3> -->
@@ -15,25 +15,25 @@
       </div>
     </div>
 
-    <div class="box alt grid">
-      <div class="row uniform">
+    <div class="box alt">
+      <div class="row">
         {% for post in site.posts %}
-        <div class="3u">
-          <div class="portfolio-item {{ post.category | slugify }}">
-            <a href="#portfolioModal{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
-              <div class="portfolio-hover">
-                <div class="portfolio-hover-content">
-                  <i class="fa fa-plus fa-3x"></i>
+        <div class="grid 3u">
+            <div class="portfolio-item {{ post.category | slugify }}">
+              <a href="#portfolioModal{{ post.modal-id }}" class="portfolio-link" >
+                <div class="portfolio-hover">
+                  <div class="portfolio-hover-content">
+                    <i class="fa fa-plus fa-3x"></i>
+                  </div>
                 </div>
+                <img src="img/portfolio/{{ post.thumbnail }}" class="image fit" alt="">
+              </a>
+              <div class="portfolio-caption">
+                <h4>{{ post.title }}</h4>
+                <!-- <p>{{ post.subtitle }}</p> -->
               </div>
-              <img src="img/portfolio/{{ post.thumbnail }}" class="image fit " alt="">
-            </a>
-            <div class="portfolio-caption">
-              <h4>{{ post.title }}</h4>
-              <p>{{ post.subtitle }}</p>
             </div>
           </div>
-        </div>
         {% endfor %}
       </div>
     </div>
@@ -41,7 +41,7 @@
   </div>
 </section>
 
-<script src="//code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+<!-- <script src="//code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script> -->
 <script src="https://unpkg.com/isotope-layout@3.0/dist/isotope.pkgd.js"></script>
 <script>
   // init Isotope
@@ -60,20 +60,21 @@
     $(this).addClass('active');
   });
 
-console.log('portfolio');
+  console.log('portfolio');
 
-$('div.modal').on('show.bs.modal', function() {
-  var modal = this;
-  var hash = modal.id;
-  console.log(this);
-  window.location.hash = hash;
-  window.onhashchange = function() {
-    if (!location.hash) {
-      $(modal).modal('hide');
+  $('div.modal').on('show.bs.modal', function() {
+    var modal = this;
+    var hash = modal.id;
+    console.log(this);
+    window.location.hash = hash;
+    window.onhashchange = function() {
+      if (!location.hash) {
+        $(modal).modal('hide');
+      }
     }
-  }
-});
-
+  });
+    
+  
 </script>
 <style type="text/css">
   a.button.active {
@@ -95,6 +96,8 @@ $('div.modal').on('show.bs.modal', function() {
 
   @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
     /* Styles */
-    a.button { font-size: .9rem; }
+    a.button {
+      font-size: .9rem;
+    }
   }
 </style>

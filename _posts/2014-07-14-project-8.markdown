@@ -1,5 +1,5 @@
 ---
-title: Christmas party window
+title: Christmas window
 subtitle: Display
 layout: default
 modal-id: 8

@@ -1,5 +1,5 @@
 ---
-title: Dining and China
+title: Dining & China
 subtitle: Display
 layout: default
 modal-id: 10

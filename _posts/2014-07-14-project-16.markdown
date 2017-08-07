@@ -1,5 +1,5 @@
 ---
-title: Home and Accessories
+title: Home & Accessories
 subtitle: Display
 layout: default
 modal-id: 16
