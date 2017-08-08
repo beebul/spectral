@@ -13,7 +13,7 @@
 
     <div class="row">
       {% for post in site.posts %}
-      <div class="grid column 4u grid-sizer" >
+      <div class="grid column 4u" >
         <figure class="portfolio-item {{ post.category | slugify }}">
           <a href="#portfolioModal{{ post.modal-id }}" class="portfolio-link">
                 <img src="img/portfolio/{{ post.thumbnail }}" class="image fit" alt="{{ post.category | slugify }}">
@@ -33,11 +33,6 @@
   // init Isotope
   $( window ).load( function() {
      var $container = $('.isotope').isotope({
-        itemSelector: '.item',
-        masonry: {
-          columnWidth: '.grid-sizer',
-          gutter: '.gutter-sizer'
-        }
       });
 
   });
@@ -57,7 +52,7 @@
 </script>
 
 <style>
-  
+  html {overflow-y: scroll;}
   #portfolio .row { margin-bottom: 2rem; }
   
   figure {
@@ -76,13 +71,17 @@
     left: 0;
     right: 0;
     text-align: right;
-    margin-left: 3rem;
+    text-transform: uppercase;
   }
   
   .item img {
   width: 100%;
   height: 100%;
   display: block;
+}
+
+.isotope-item{
+  margin: 5px;
 }
   
 </style>
