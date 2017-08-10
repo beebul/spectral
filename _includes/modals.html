@@ -1,21 +1,20 @@
  <!-- Portfolio Modals -->
  {% for post in site.posts %}
  <div class="row">
-     <div class="easy-modal 12u" id="portfolioModal{{ post.modal-id }}" tabindex="-1" style="position: absolute;    display: block;">
+     <div class="easy-modal 12u" id="portfolioModal{{ post.modal-id }}" tabindex="-1">
         <div class="easy-modal-inner">
-            <div class="close-modal easy-modal-close" data-dismiss="modal">
+            <div class="easy-modal-close">
                 <div class="lr">
                     <div class="rl">
                     </div>
                 </div>
             </div>
-            <div class="container">
+            <div class="container u-full-width u-max-full-width">
                 <div class="row">
                   <div class="modal-body 12u">
                       <h2>{{ post.title }}</h2>
                       <hr class="star-primary">
-                      <img data-src="img/portfolio/{{ post.img }}" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" 
-                      class="img-responsive img-centered image fit" alt="{{ post.alt }}">
+                      <img data-src="img/portfolio/{{ post.img }}" class="" alt="{{ post.alt }}">
                       <p>{{ post.description }}</p>
                       <ul class="list-inline item-details">
                           <li>Client:
@@ -41,5 +40,5 @@
 {% endfor %}
 
 <style>
-.easy-modal { background: white; }
+
 </style>

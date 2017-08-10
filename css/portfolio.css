@@ -1,5 +1,5 @@
 html {
-  overflow-y: scroll;
+  /*overflow-y: scroll;*/
 }
 
 #portfolio .row {
@@ -15,8 +15,6 @@ figure img {
 }
 
 figcaption {
-  font-size: .8rem;
-  font-weight: bolder;
   background: rgba(0, 0, 0, 0.5);
   color: aliceblue;
   position: absolute;
@@ -35,10 +33,28 @@ figcaption {
 }
 
 .isotope-item {
-  margin: 5px;
+  /*margin: 5px;*/
 }
-/*
-.portfolio-modal .modal-content {
+
+.easy-modal { 
+  background: white;   
+  overflow-x: hidden;
+  overflow-y: auto; 
+  padding: 100px 0;
+  min-height: 100%;
+  border: 0;
+  border-radius: 0;
+  text-align: center;
+  background-clip: border-box;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.easy-modal .container { 
+  color: green; 
+}
+
+.easy-modal .modal-content {
     padding: 100px 0;
     min-height: 100%;
     border: 0;
@@ -49,32 +65,33 @@ figcaption {
     box-shadow: none;
 }
 
-.portfolio-modal .modal-content h2 {
+.easy-modal .modal-content h2 {
     margin-bottom: 15px;
+    color: purple;
     font-size: 3em;
 }
 
-.portfolio-modal .modal-content p {
+.easy-modal .modal-content p {
     margin-bottom: 30px;
 }
 
-.portfolio-modal .modal-content p.item-intro {
+.easy-modal .modal-content p.item-intro {
     margin: 20px 0 30px;
     font-family: {{ site.data.template.font.secondary }};
     font-size: 16px;
     font-style: italic;
 }
 
-.portfolio-modal .modal-content ul.list-inline {
+.easy-modal .modal-content ul.list-inline {
     margin-top: 0;
     margin-bottom: 30px;
 }
 
-.portfolio-modal .modal-content img {
+.easy-modal .modal-content img {
     margin-bottom: 30px;
 }
 
-.portfolio-modal .close-modal {
+.easy-modal .close-modal {
     position: absolute;
     top: 25px;
     right: 25px;
@@ -84,11 +101,11 @@ figcaption {
     cursor: pointer;
 }
 
-.portfolio-modal .close-modal:hover {
+.easy-modal .close-modal:hover {
     opacity: .3;
 }
 
-.portfolio-modal .close-modal .lr {
+.easy-modal .close-modal .lr {
     z-index: 1051;
     width: 1px;
     height: 75px;
@@ -99,7 +116,7 @@ figcaption {
     transform: rotate(45deg);
 }
 
-.portfolio-modal .close-modal .lr .rl {
+.easy-modal .close-modal .lr .rl {
     z-index: 1052;
     width: 1px;
     height: 75px;
@@ -127,6 +144,3 @@ img::-moz-selection {
     background: 0 0;
 }
 
-body {
-    webkit-tap-highlight-color: #{{ site.data.template.color.primary }};
-}*/

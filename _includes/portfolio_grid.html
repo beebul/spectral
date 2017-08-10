@@ -4,6 +4,7 @@
 <section id="portfolio" class="bg-light-gray">
   
   <div class="container">
+    
     <div class="row">
       <div class="button-group filter-button-group">
         {% for category in site.categories %}
@@ -15,11 +16,11 @@
     <div class="row grid">
       {% for post in site.posts %}
       <div class="4u 6u(small) 12u(xsmall) portfolio-item {{ post.category | slugify }}">
-        <figure class="">
+        <figure>
           <a href="#portfolioModal{{ post.modal-id }}" class="easy-modal-open">
               <img src="img/portfolio/{{ post.thumbnail }}" class="image fit" alt="{{ post.category | slugify }}">
-          </a>
            <figcaption><h3> {{ post.title }} </h3> <!--<p>{{ post.subtitle }}</p>--> </figcaption> 
+           </a>
         </figure>
       </div>
       {% endfor %}
@@ -27,5 +28,4 @@
 
   </div>
   
-
 </section>
