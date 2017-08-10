@@ -16,7 +16,7 @@ figure img {
 
 figcaption {
   font-size: .8rem;
-  font-weight: 700;
+  font-weight: bolder;
   background: rgba(0, 0, 0, 0.5);
   color: aliceblue;
   position: absolute;
@@ -37,9 +37,7 @@ figcaption {
 .isotope-item {
   margin: 5px;
 }
-
-
-
+/*
 .portfolio-modal .modal-content {
     padding: 100px 0;
     min-height: 100%;
@@ -131,4 +129,4 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #{{ site.data.template.color.primary }};
-}
+}*/

@@ -1,6 +1,7 @@
  <!-- Portfolio Modals -->
  {% for post in site.posts %}
-     <div class="portfolio-modal easy-modal fade" id="portfolioModal{{ post.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true" style="">
+ <div class="row">
+     <div class="easy-modal 12u" id="portfolioModal{{ post.modal-id }}" tabindex="-1" style="position: absolute;    display: block;">
         <div class="easy-modal-inner">
             <div class="close-modal easy-modal-close" data-dismiss="modal">
                 <div class="lr">
@@ -10,50 +11,35 @@
             </div>
             <div class="container">
                 <div class="row">
-                    <div class="">
-                        <div class="modal-body">
-                            <h2>{{ post.title }}</h2>
-                            <hr class="star-primary">
-                            <img data-src="img/portfolio/{{ post.img }}" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="img-responsive img-centered" style="height:90%;" alt="{{ post.alt }}">
-                            <p>{{ post.description }}</p>
-                            <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="#">{{ post.client }}</a>
-                                    </strong>
-                                </li>
-                                <li>Date:
-                                    <strong><a href="#">{{ post.project-date }}</a>
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="#">{{ post.category }}</a>
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
+                  <div class="modal-body 12u">
+                      <h2>{{ post.title }}</h2>
+                      <hr class="star-primary">
+                      <img data-src="img/portfolio/{{ post.img }}" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" 
+                      class="img-responsive img-centered image fit" alt="{{ post.alt }}">
+                      <p>{{ post.description }}</p>
+                      <ul class="list-inline item-details">
+                          <li>Client:
+                              <strong><a href="#">{{ post.client }}</a>
+                              </strong>
+                          </li>
+                          <li>Date:
+                              <strong><a href="#">{{ post.project-date }}</a>
+                              </strong>
+                          </li>
+                          <li>Service:
+                              <strong><a href="#">{{ post.category }}</a>
+                              </strong>
+                          </li>
+                      </ul>
+                      <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                  </div>
                 </div>
             </div>
         </div>
     </div>
+  </div>
 {% endfor %}
 
 <style>
-
-.portfolio-modal  {
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  z-index: 100000;
-}
-
-.easy-modal-inner {
-  height: auto;
-  min-height: 100%;
-  border-radius: 0;
-  background-color: white;
-}
-
+.easy-modal { background: white; }
 </style>
