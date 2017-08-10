@@ -1,3 +1,8 @@
+$(document).ready(function() {
+  $("img").unveil();
+});
+
+
 $(window).load(function() {
   // init Isotope
   var $grid = $('.grid').isotope({
@@ -25,6 +30,7 @@ $(window).load(function() {
     $('.easy-modal-open').click(function(e) {
       var target = $(this).attr('href');
       console.log(this);
+      $("img").trigger("unveil");
       $(target).trigger('openModal');
       e.preventDefault();
     });
