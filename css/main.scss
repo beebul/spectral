@@ -853,11 +853,11 @@ $baseurl: '{{ site.baseurl }}/images';
 		}
 
 		&.small {
-			font-size: 0.8em;
+			font-size: 0.4em;
 		}
 
 		&.big {
-			font-size: 1.35em;
+			font-size: 1em;
 		}
 
 		&.special {
@@ -881,8 +881,9 @@ $baseurl: '{{ site.baseurl }}/images';
 		}
 
 		@include breakpoint(small) {
-			height: 3.75em;
-			line-height: 3.75em;
+			height: 1.75em;
+			line-height: 1.75em;
+			font-size: .9rem;
 		}
 	}
 
@@ -1193,22 +1194,22 @@ $baseurl: '{{ site.baseurl }}/images';
 
 		// Button
 
-			input[type="submit"],
-			input[type="reset"],
-			input[type="button"],
-			button,
-			.button {
-				box-shadow: inset 0 0 0 2px _palette($p, border);
-				color: _palette($p, fg-bold);
-
-				&:hover {
-					background-color: _palette($p, border-bg);
-				}
-
-				&:active {
-					background-color: _palette($p, border2-bg);
-				}
-			}
+			// input[type="submit"],
+			// input[type="reset"],
+			// input[type="button"],
+			// button,
+			// .button {
+			// 	box-shadow: inset 0 0 0 2px _palette($p, border);
+			// 	color: _palette($p, fg-bold);
+			// 
+			// 	&:hover {
+			// 		background-color: _palette($p, border-bg);
+			// 	}
+			// 
+			// 	&:active {
+			// 		background-color: _palette($p, border2-bg);
+			// 	}
+			// }
 
 		// Features
 
