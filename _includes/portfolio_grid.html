@@ -14,7 +14,7 @@
 
     <div class="row grid">
       {% for post in site.posts %}
-      <div class="4u portfolio-item 12u(small) {{ post.category | slugify }}">
+      <div class="4u 6u(small) 12u(xsmall) portfolio-item {{ post.category | slugify }}">
         <figure class="">
           <a href="#portfolioModal{{ post.modal-id }}" class="easy-modal-open">
               <img src="img/portfolio/{{ post.thumbnail }}" class="image fit" alt="{{ post.category | slugify }}">
