@@ -12,9 +12,9 @@
       </div>
     </div>
 
-    <div class="row">
+    <div class="row grid">
       {% for post in site.posts %}
-      <div class="grid 4u">
+      <div class=" 4u">
         <figure class="portfolio-item {{ post.category | slugify }}">
           <a href="#portfolioModal{{ post.modal-id }}" class="easy-modal-open">
               <img data-src="img/portfolio/{{ post.thumbnail }}" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="image fit" alt="{{ post.category | slugify }}">
