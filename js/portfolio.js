@@ -16,7 +16,7 @@ $(window).load(function() {
     });
   });
   $('.button-group a.button').on('click', function() {
-    $('.button-group a.button').removeClass('active');
+    $('.button-group a.button').removeClass('active');    
     $(this).addClass('active');
   });
 
@@ -24,8 +24,16 @@ $(window).load(function() {
   $(function() {
     
     $('.easy-modal').easyModal({
-      top: 200,
-      overlay: 0.2
+      top: 60, 
+      overlay: 0.2,
+      onOpen: function() { 
+        $(this).addClass('modal-open');
+        console.log('open');
+      }, 
+      onClose: function() 
+      { 
+        $(this).removeClass('modal-open'); 
+      }
     });
 
     $('.easy-modal-open').click(function(e) {
@@ -40,14 +48,6 @@ $(window).load(function() {
       $('.easy-modal').trigger('closeModal');
     });
 
-    // $('.easy-modal-animated').easyModal({
-    //   top: 200,
-    //   overlay: 0.2,
-    //   transitionIn: 'animated bounceInLeft',
-    //   transitionOut: 'animated bounceOutRight',
-    //   closeButtonClass: '.animated-close'
-    // });
-  
   });
 
   //$("#modal-windows").css("display", "block");
