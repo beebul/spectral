@@ -1,6 +1,6 @@
-$(document).ready(function() {
-  $("img").unveil();
-});
+// $(document).ready(function() {
+//   $("img").unveil();
+// });
 
 
 $(window).load(function() {
