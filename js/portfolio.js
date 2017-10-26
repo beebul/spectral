@@ -26,13 +26,13 @@ $(window).load(function() {
     $('.easy-modal').easyModal({
       top: 60, 
       overlay: 0.2,
-      onOpen: function() { 
-        $(this).addClass('modal-open');
-        console.log('open');
+      onOpen: function(modal) { 
+        $(modal).addClass('modal-open');
+        console.log('open1');
       }, 
-      onClose: function() 
+      onClose: function(modal) 
       { 
-        $(this).removeClass('modal-open'); 
+        $(modal).removeClass('modal-open'); 
       }
     });
 
