@@ -50,6 +50,6 @@ $(window).load(function() {
 
   });
 
-  //$("#modal-windows").css("display", "block");
+  $("#modal-windows").css("display", "block");
 
 });
