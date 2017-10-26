@@ -17,12 +17,14 @@
       {{ content }}
       {% include footer.html %}
       {% include scripts.html %}
+
+      
+      <div id="modal-windows">
+        {% include modals.html %}
+      </div>
+        
     </div>
-    
-    <div id="modal-windows">
-      {% include modals.html %}
-    </div>
-    
-  </body>
+  
+</body>
 
 </html>

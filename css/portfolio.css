@@ -51,7 +51,8 @@ figcaption {
 }
 
 .easy-modal .container { 
-  color: green; 
+  background-color: white; 
+  color: darkslategrey;
 }
 
 .easy-modal .modal-content {

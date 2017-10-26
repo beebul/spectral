@@ -24,11 +24,11 @@ $(window).load(function() {
   $(function() {
     
     $('.easy-modal').easyModal({
-      top: 60, 
+      top: 0, 
       overlay: 0.2,
       onOpen: function(modal) { 
         $(modal).addClass('modal-open');
-        console.log('open1');
+        $(modal).children('img').each(function(img) { img.attr('src', img.attr('data-src')); });
       }, 
       onClose: function(modal) 
       { 
