@@ -15,7 +15,7 @@
         <button type="button" class="close cancel"><i class="fa fa-times"></i> Close</button>
           <h2>{{ post.title }}</h2>
           <hr class="star-primary">
-          <img style="max-width: 90%;" data-src="img/portfolio/{{ post.img }}" src="images/loading_spinner.gif" alt="{{ post.alt }}">
+          <img style="max-width: 90%;" class="large-portfolio-image" data-src="img/portfolio/{{ post.img }}" alt="{{ post.alt }}">
           <p>{{ post.description }}</p>
           <button type="button" class="close cancel"><i class="fa fa-times"></i> Close</button>
         </div>
@@ -25,3 +25,12 @@
 </div>
 
 {% endfor %}
+
+  <!--[if IE]>
+    <style>
+    .image.fit {
+      margin-bottom: 0px !important;
+    }
+    * { color: blue; }
+    </style>
+  <![endif]-->
