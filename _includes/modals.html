@@ -1,75 +1,68 @@
 <!-- Portfolio Modals -->
 {% for post in site.posts %}
-
-<div class="easy-modal 12u" id="portfolioModal{{ post.modal-id }}" tabindex="-1" style="top:0 !important;">
-  <div class="easy-modal-inner">
-
-    <div class="container u-full-width u-max-full-width">
-      <div class="row">
-        <div class="12u">
-      <div class="easy-modal-close">
-      <div class="lr">
-        <div class="rl">
-        </div>
-      </div>
-    </div>
-<!--         <button type="button" style="float:right;" class="close cancel"><i class="fa fa-times"></i> Close</button>
- -->          <h2>{{ post.title }}</h2>
-          <hr class="star-primary">
-          <img style="max-width: 90%;" class="large-portfolio-image" data-src="img/portfolio/{{ post.img }}" alt="{{ post.alt }}">
-          <p>{{ post.description }}</p>
-          <button type="button" style="float:right;" class="close cancel"><i class="fa fa-times"></i> Close</button>
+  <div class="easy-modal 12u" id="portfolioModal{{ post.modal-id }}" tabindex="-1" style="top:0 !important;">
+    <div class="easy-modal-inner">
+      <div class="container u-full-width u-max-full-width">
+        <div class="row">
+          <div class="12u">
+            <div class="easy-modal-close">
+              <div class="lr">
+                <div class="rl">
+                </div>
+              </div>
+            </div>
+            <h2>{{ post.title }}</h2>
+<!--             <hr class="star-primary">
+ -->            <img style="max-width: 90%;" class="large-portfolio-image" data-src="img/portfolio/{{ post.img }}" alt="{{ post.alt }}">
+            <p>{{ post.description }}</p>
+            <button type="button" style="float:right;" class="close cancel"><i class="fa fa-times"></i> Close</button>
+          </div>
         </div>
       </div>
     </div>
   </div>
-</div>
-
 {% endfor %}
-
-  <!--[if IE]>
-    <style>
+<!--[if IE]>
+  <style>
     .image.fit {
-      margin-bottom: 0px !important;
+    margin-bottom: 0px !important;
     }
     * { color: blue; }
-    </style>
-  <![endif]-->
+  </style>
+<![endif]-->
 <style type="text/css">
-  .easy-modal-close .lr {
-    z-index: 1051;
-    width: 1px;
-    height: 75px;
-    margin-left: 35px;
-    -webkit-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    transform: rotate(45deg);
-    background-color: #212529;
-}
+.easy-modal-inner .container { padding-top: 100px; }
 
+.easy-modal-close .lr {
+  z-index: 1051;
+  width: 1px;
+  height: 75px;
+  margin-left: 35px;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  background-color: #212529;
+}
 .easy-modal-close .lr .rl {
-    z-index: 1052;
-    width: 1px;
-    height: 75px;
-    -webkit-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    transform: rotate(90deg);
-    background-color: #212529;
-    float-right;
+z-index: 1052;
+width: 1px;
+height: 75px;
+-webkit-transform: rotate(90deg);
+-ms-transform: rotate(90deg);
+transform: rotate(90deg);
+background-color: #212529;
+float-right;
 }
-
 .easy-modal-close {
-    position: absolute;
-    top: 25px;
-    right: 25px;
-    width: 75px;
-    height: 75px;
-    cursor: pointer;
-    background-color: transparent
+position: absolute;
+top: 25px;
+right: 25px;
+width: 75px;
+height: 75px;
+cursor: pointer;
+background-color: transparent
 }
-
 .easy-modal-close:hover {
-    opacity: .3
+opacity: .3
 }
-
 </style>
