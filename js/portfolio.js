@@ -1,5 +1,6 @@
 $(document).ready(function() {
-  $("img").unveil();
+    let images = document.querySelectorAll(".large-portfolio-image");
+    new LazyLoad(images);
 });
 
 
