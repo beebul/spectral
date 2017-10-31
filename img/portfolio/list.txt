@@ -1,0 +1,46 @@
+ Volume in drive C is System
+ Volume Serial Number is 8ED0-372E
+
+ Directory of C:\Users\mcgarrd\Documents\GitHub\spectral\img\portfolio
+
+31/10/2017  02:44 PM    <DIR>          .
+31/10/2017  02:44 PM    <DIR>          ..
+26/10/2017  01:27 PM           241,931 accessories.jpg
+26/10/2017  01:27 PM           282,234 adelaide-cup-museum-case.jpg
+26/10/2017  01:27 PM           241,025 adelaide-cup.jpg
+26/10/2017  01:27 PM           122,632 bedding-pause-point.jpg
+26/10/2017  01:27 PM           160,548 brand-wall.jpg
+26/10/2017  01:27 PM           262,009 childrens-mannequins.jpg
+26/10/2017  01:27 PM           305,261 christmas-dining.jpg
+26/10/2017  01:27 PM           245,345 christmas-party-window.jpg
+26/10/2017  01:27 PM           360,463 christmas-shop.jpg
+26/10/2017  01:28 PM           299,035 dining-and-china.jpg
+26/10/2017  01:28 PM           328,715 dining.jpg
+26/10/2017  01:28 PM           276,403 fashion-and-accessories.jpg
+26/10/2017  01:28 PM           259,648 fashion-pause-point.jpg
+26/10/2017  01:28 PM           233,924 high-tea-dining.jpg
+26/10/2017  01:28 PM           269,498 home-accessories-pause-point.jpg
+26/10/2017  01:28 PM           240,574 home-and-accessories.jpg
+26/10/2017  01:28 PM           286,123 home-entrance.jpg
+26/10/2017  01:28 PM           241,673 homewares-1.jpg
+26/10/2017  01:28 PM           174,855 homewares-overhead.jpg
+26/10/2017  01:28 PM           283,367 homewares.jpg
+26/10/2017  01:28 PM           252,961 kids-christmas.jpg
+26/10/2017  01:28 PM           279,817 kids-window.jpg
+31/10/2017  02:44 PM                 0 list.txt
+26/10/2017  01:28 PM           215,031 luxury-food.jpg
+26/10/2017  01:28 PM           314,944 mothers-day-dining.jpg
+26/10/2017  01:28 PM           183,630 mothers-day-museum-case.jpg
+26/10/2017  01:28 PM           331,043 mothers-day-stationary.jpg
+26/10/2017  01:28 PM           187,695 mothers-day.jpg
+26/10/2017  01:28 PM           261,462 museum-case-entrance.jpg
+26/10/2017  01:28 PM           226,537 museum-case-run.jpg
+26/10/2017  01:28 PM           168,739 museum-case.jpg
+26/10/2017  01:28 PM           271,537 new-brand-display-table.jpg
+26/10/2017  01:28 PM           169,624 new-season-homewares.jpg
+26/10/2017  01:29 PM    <DIR>          old-images
+26/10/2017  01:28 PM           166,729 rustic.jpg
+27/10/2017  01:50 PM    <DIR>          thumbs
+26/10/2017  01:28 PM           169,778 womens-shoe-overview.jpg
+              35 File(s)      8,314,790 bytes
+               4 Dir(s)  330,499,960,832 bytes free

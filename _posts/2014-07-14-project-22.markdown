@@ -1,0 +1,14 @@
+---
+title: Kids Window
+subtitle: Display
+layout: default
+modal-id: 22
+date: 2014-09-14
+img: kids-window.jpg
+thumbnail: thumbs/kids-window-thumbnail.jpg
+alt: image-alt
+project-date: April 2014
+client: David Jones
+category: Home
+description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis.
+---
