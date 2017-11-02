@@ -1,0 +1,14 @@
+---
+title: Mothers Day Dining
+subtitle: Display
+layout: default
+modal-id: 22
+date: 2014-09-14
+img: mothers-day-dining.jpg
+thumbnail: thumbs/mothers-day-dining-thumbnail.jpg
+alt: image-alt
+project-date: April 2014
+client: David Jones
+category: Home
+description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis.
+---
