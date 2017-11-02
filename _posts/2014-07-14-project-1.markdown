@@ -3,7 +3,7 @@ title: Accessories
 subtitle: Display
 layout: default
 modal-id: 1
-date: 2014-07-18
+date: 2018-07-18
 img: accessories.jpg
 thumbnail: thumbs/accessories-thumbnail.jpg
 alt: image-alt

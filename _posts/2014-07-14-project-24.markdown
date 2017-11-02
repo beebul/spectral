@@ -2,7 +2,7 @@
 title: Luxury Food
 subtitle: Display
 layout: default
-modal-id: 22
+modal-id: 24
 date: 2014-09-14
 img: luxury-food.jpg
 thumbnail: thumbs/luxury-food-thumbnail.jpg
