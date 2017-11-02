@@ -12,7 +12,7 @@
         </div>
       </div>
       <div class="row grid">
-        {% for post in site.posts[post.model-id] %}
+        {% for post in site.posts %}
           <div class="4u 6u(small) 12u(xsmall) portfolio-item {{ post.category | slugify }}">
             <figure>
               <a href="#portfolioModal{{ post.modal-id }}" class="easy-modal-open">
