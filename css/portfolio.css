@@ -145,3 +145,5 @@ img::-moz-selection {
     background: 0 0;
 }
 
+/*.portfolio-item { padding-bottom: _size(element-margin); }*/
+.portfolio-item { 3em; }
