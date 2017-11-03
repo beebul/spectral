@@ -14,7 +14,7 @@
       <div class="row grid">
         {% for post in site.posts %}
           <div class="4u 6u(small) 12u(xsmall) portfolio-item {{ post.category | slugify }}">
-            <figure class="fit">
+            <figure>
               <a href="#portfolioModal{{ post.modal-id }}" class="easy-modal-open">
                 <img src="images/loading_spinner.gif" data-src="img/portfolio/{{ post.thumbnail }}" class="image fit lazyload" alt="{{ post.category | slugify }}">
                 <figcaption> <h3>{{ post.title }}</h3> <!-- <p>{{ post.subtitle }}</p> --> </figcaption>
@@ -29,7 +29,7 @@
 
 <style>
 
-.fit { margin: 0 0 0 0 !important; }
+
   <!--[if IE]><!-->
 
 
