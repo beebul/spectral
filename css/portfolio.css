@@ -146,4 +146,4 @@ img::-moz-selection {
 }
 
 /*.portfolio-item { padding-bottom: _size(element-margin); }*/
-.portfolio-item { 3em; }
+.portfolio-item { padding-bottom: 2em; }
