@@ -1837,3 +1837,6 @@ $baseurl: '{{ site.baseurl }}/images';
 			}
 		}
 	}
+
+
+	.portfolio-item { padding-bottom: _size(element-margin); }
