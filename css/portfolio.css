@@ -144,5 +144,3 @@ img::selection {
 img::-moz-selection {
     background: 0 0;
 }
-
-.portfolio-item { padding-bottom: 2em; } 
