@@ -129,7 +129,6 @@ $baseurl: '{{ site.baseurl }}/images';
 
 		@include breakpoint(small) {
 			font-size: .8em !important;
-			color:red !important;
 		}
 		@include breakpoint(xsmall) {
 			font-size: .6em !important;
