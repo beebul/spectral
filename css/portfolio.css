@@ -144,3 +144,11 @@ img::selection {
 img::-moz-selection {
     background: 0 0;
 }
+
+@media screen and (max-width: 736px) {
+  h3 {
+      font-size: 1em;
+      color:red;
+      line-height: 1.75em;
+  }
+}
